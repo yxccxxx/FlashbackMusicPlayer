@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_alignParentTop="true">
+
+        <Button
+            android:id="@+id/albums_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/albums"
+            android:textSize="30sp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/songs_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/songs"
+            android:textSize="30sp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/remote_library_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Remote Library"
+            android:textSize="18sp"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/vibe_mode_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Vibe Mode"
+            android:textSize="20sp"
+            android:layout_margin="30dp"
+            />
+
+        <Switch
+            android:id="@+id/time_switch"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Time Mode"
+            android:textSize="20sp"
+            android:layout_margin="30dp"
+            />
+
+        <EditText
+            android:id="@+id/mocktime_input"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter a mock time"
+            android:textSize="20sp"
+            android:layout_margin="30dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jaygandhi.flashbackmusicteam34.PlaybackActivity">
+    <item
+        android:id="@+id/sort_title"
+        android:orderInCategory="101"
+        android:title="Sort By Title"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_album"
+        android:orderInCategory="102"
+        android:title="Sort By Album"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_artist"
+        android:orderInCategory="103"
+        android:title="Sort By Artist"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_favorites"
+        android:orderInCategory="104"
+        android:title="Sort By Favorites"
+        app:showAsAction="never" />
+</menu>

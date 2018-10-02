@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FlashbackMusicTeam34</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_artist">ArtistActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_play_song">PlaySongActivity</string>
+    <string name="title_activity_play_flashback">PlayFlashbackActivity</string>
+
+    <string name="artists">artists</string>
+    <string name="albums">albums</string>
+    <string name="songs">songs</string>
+    <string name="toogle_text">Flash Back Mode</string>
+
+    <string name="volume">volume</string>
+    <string name="pause">pause</string>
+    <string name="play">play</string>
+
+    <string name="status_neutral">+</string>
+    <string name="status_like">✓</string>
+    <string name="status_dislike">X</string>
+    <string name="title_activity_download_song">DownloadSongActivity</string>
+    <string name="title_activity_playback">PlaybackActivity</string>
+    <string name="web_client_id">560864550567-tctth6rjit4gqtfpj6f2887c8uamlork.apps.googleusercontent.com</string>
+    <string name="web_client_secret">JkC3fh18Ekryo-gC7FLyX7nU</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+</resources>

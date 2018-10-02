@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jaygandhi.flashbackmusicteam34.PlaybackActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_playback" />
+
+    <TextView
+        android:id="@+id/trackname_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tracky Name"
+        android:paddingTop="55dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/artistname_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artisty Name"
+        android:textSize="15sp"
+        android:paddingTop="80dp" />
+
+    <TextView
+        android:id="@+id/albumname_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Albumy Name"
+        android:textSize="10sp"
+        android:paddingTop="100dp" />
+
+    <TextView
+        android:id="@+id/lastlat_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Lat: "
+        android:textSize="10sp"
+        android:paddingTop="115dp" />
+
+    <TextView
+        android:id="@+id/lastlong_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Long: "
+        android:textSize="10sp"
+        android:paddingTop="130dp" />
+
+    <TextView
+        android:id="@+id/lasttime_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Time: "
+        android:textSize="10sp"
+        android:paddingTop="145dp" />
+
+    <TextView
+        android:id="@+id/lastuser_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last User: "
+        android:textSize="10sp"
+        android:paddingTop="160dp" />
+
+    <Button
+        android:id="@+id/play_btn"
+        android:text=">"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="100dp"/>
+
+    <Button
+        android:id="@+id/like_dislike_btn"
+        android:text="+"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:id="@+id/skip_btn"
+        android:text=">>"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="100dp" />
+
+    <SeekBar
+        android:id="@+id/volume_bar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="150dp" />
+
+
+    <TextView
+        android:id="@+id/bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="160dp"
+        android:text="__________________________________________"
+        android:textSize="15sp" />
+
+    <ListView
+        android:id="@+id/number_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="175dp">
+    </ListView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>
