@@ -1,5 +1,5 @@
-# cse-110-team-project-team-34
-cse-110-team-project-team-34 created by GitHub Classroom
+# Flashback Music Player
+Created by cse-110-team-project-team-34 in GitHub Classroom
 
 General Guidelines:
 
